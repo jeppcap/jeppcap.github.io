@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Title -->
+        <title>Jeff's Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Brex-Theme"/>
+        <!-- description -->
+        <!-- animation -->
+        <link rel="stylesheet" href="css/plugins/animate.css"/>
+        <!-- Animated Headlines -->
+        <link rel="stylesheet" href="css/plugins/animated-headlines.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- font-awesome icon -->
+        <link rel="stylesheet" href="https://kit.fontawesome.com/03f093ca71.css" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900"
+            rel="stylesheet">
+        <!-- Animated Headlines -->
+        <link rel="stylesheet" href="css/plugins/animated-headlines.css">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="css/plugins/magnific-popup.css"/>
+        <!-- Main Style -->
+        <link rel="stylesheet" href="css/main.css"/>
+        <style>
+            .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content iframe {
+    width: 100%; /* Set the width to 100% to match the modal's width */
+    height: 600px; /* Adjust the height as needed for a larger video */
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+        </style>
+    </head>
+
+    <body>
+        <!-- ===== Start Navbar ===== -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#slider">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <!-- Drop Down-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ===== End Navbar ===== -->
+
+        <!-- ===== Start Slider ===== -->
+        <section class="slider d-flex justify-content-center" id="slider">
+            <div class="container text-center">
+                    <div class="row all-content">
+                        <div class="col-12">
+                            <div class="left-content">
+                                <p class="hello">
+                                    HELLO I'M</p>
+                                <!-- Animated Text-->
+                                <div class="animated-headlines">
+                                    <h1 class="cd-headline clip is-full-width">
+                                        <span class="cd-words-wrapper">
+                                            <b class="is-visible">Jeff Dexter Capicio</b>
+                                        </span>
+                                    </h1>
+                                </div>
+                                <p class="paragraph">
+                                    I'm a freelance and aspiring web developer.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div id="particles-js" class="particels"></div>
+        </section>
+        <!-- ===== End Slider ===== -->
+        <!-- ===== Start About Me ===== -->
+        <section class="about-me" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/profile.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-7">
+                        <h2>About Me</h2>
+                        <p>
+                            I'm an Computer Science Graduate who has interest in Web Development.
+                            I love creating websites, seeing it works and making designs, it excites
+                            me when i'm building it and turning it into a real website.
+                            <br><br>
+
+                            My passion in Web Development, especially Back-End makes me want to build
+                            my own website. Currently, I'm looking for an oppurtunity where i can use
+                            my skills that i'm passionate about.
+                        </p>
+                        <a href="img/Capicio_Resume.pdf" class="btn-1" download="">Download CV</a>
+                        <a href="#portfolio" class="btn-2">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== End About Me ===== -->
+        <!-- ===== Start Services ===== -->
+        <section class="services" id="services">
+            <h2 class="text-center">Skills</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- Box-1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box">
+                            <i class="fa-brands fa-html5"></i>
+                            <span class="fa-brands fa-html5"></span>
+                            <h3>HTML5</h3>
+                        </div>
+                    </div>
+                    <!-- Box-2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box">
+                            <span class="fa-brands fa-python"></span>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                    <!-- Box-3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box">
+                            <span class="fa-brands fa-php"></span>
+                            <h3>PHP</h3>
+                        </div>
+                    </div>
+                    <!-- Box-4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box">
+                            <span class="fa-solid fa-database"></span>
+                            <h3>MySQL</h3>
+                        </div>
+                    </div>
+                    <!-- Box-5 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box">
+                            <span class="fa-brands fa-bootstrap"></span>
+                            <h3>Bootstrap</h3>
+                        </div>
+                    </div>
+                    <!-- Box-6 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box">
+                            <span class="fa-brands fa-css3"></span>
+                            <h3>CSS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== End Services ===== -->
+        <!-- ===== Start Portfolio ===== -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="text-center">Portfolio</h2>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="button-group filter-button-group text-center">
+                            <button data-filter="*" class="active">Projects</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row grid">
+                    <!-- Image-1 -->
+                    <div class="col-lg-4 col-md-6 grid-item marketing">
+                        <div class="single-portfolio-item">
+                            <img src="img/dentale.png" width="1100" height="400">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>DentAlyzer</h3>
+                                    <p>Clinical Website</p>
+                                    <a href="#"><span class="fa fa-eye" id="openVideo"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row grid">
+                    <!-- Image-2 -->
+                    <div class="col-lg-4 col-md-6 grid-item marketing">
+                        <div class="single-portfolio-item">
+                            <img src="img/indophil.png" width="1100" height="400">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Indophil Information Website</h3>
+                                    <p>Informational Website</p>
+                                        <a href="#"><span class="fa fa-eye" id="openVideo2"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Add the modal for the video -->
+                <div id="videoModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" id="closeVideo">&times;</span>
+                        <iframe src="img/video1.mp4" frame="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div id="videoModal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" id="closeVideo2">&times;</span>
+                        <iframe src="img/video2.mp4" frame="0" allowfullscreen></iframe>
+                    </div>
+                </div>            
+            </div>
+        </section>
+        <!-- ===== End Portfolio ===== -->
+        <!-- ===== Start Contact ===== -->
+        <section class="contact" id="contact"> 
+            <h2 class="text-center">Keep In Touch</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn btn-block" type="submit">Send Now!</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <span class="fa fa-mobile"></span>
+                            <p>+639109387979</p>
+                            <br>
+                            <span class="fa fa-at"></span>
+                            <p>capiciojeffdexter@gmail.com <br> jeffcap@codexluna.co</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Start Footer ===== -->
+        <footer class="footer text-center">
+            <div class="social-icons">
+                <span class="fa fa-facebook" aria-hidden="true"></span>
+            <span class="fa fa-twitter" aria-hidden="true"></span>
+            <span class="fa fa-dribbble" aria-hidden="true"></span>
+            <span class="fa fa-skype" aria-hidden="true"></span>
+            </div>
+            <p>Made by: Jeff Capicio 2023</p>
+        </footer>
+        <!-- ===== End Footer ===== -->
+        <script>
+            // JavaScript to handle the modal and opening the video
+            var openVideo = document.getElementById("openVideo");
+            var videoModal = document.getElementById("videoModal");
+            var openVideo2 = document.getElementById("openVideo2");
+            var videoModal2 = document.getElementById("videoModal2");
+            var closeVideo = document.getElementById("closeVideo");
+            var closeVideo2 = document.getElementById("closeVideo2");
+    
+            openVideo.addEventListener("click", function () {
+                videoModal.style.display = "block";
+            });
+            openVideo2.addEventListener("click", function () {
+                videoModal2.style.display = "block";
+            });
+    
+            closeVideo.addEventListener("click", function () {
+                videoModal.style.display = "none";
+            });
+            closeVideo2.addEventListener("click", function () {
+                videoModal2.style.display = "none";
+            });
+        </script>
+        <!-- ==== javascript libraries ==== -->
+        <!-- jQuery-->
+        <script src="js/plugins/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap 4.1.3 -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins/popper.min.js"></script>
+        <!-- Animated Headlines -->
+        <script src="js/plugins/animated-headlines.js"></script>
+        <!-- Nav jQuery-->
+        <script src="js/plugins/nav.jquery.js"></script>
+        <!-- Nav jQuery-->
+        <script src="js/plugins/jquery.stellar.js"></script>
+        <!-- Isotope -->
+        <script src="js/plugins/isotope.pkgd.min.js"></script>
+        <!-- Image Loaded -->
+        <script src="js/plugins/imagesloaded.pkgd.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/plugins/magnific-popup.min.js"></script>
+        <!-- Smooth-Scroll -->
+        <script src="js/smooth-scroll.js"></script>
+        <!-- Counter Up -->
+        <script src="js/plugins/jquery.waypoints.min.js"></script>
+        <script src="js/plugins/jquery.counterup.min.js"></script>
+        <!-- Particles Js -->
+        <script src="js/plugins/particles.min.js"></script>
+        <script src="js/plugins/app.js"></script>
+        <!-- Animated Headlines -->
+        <script src="js/plugins/animated-headlines..j"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
